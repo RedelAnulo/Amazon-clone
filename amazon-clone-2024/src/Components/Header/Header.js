@@ -3,6 +3,7 @@ import { BsSearch } from "react-icons/bs";
 import { BiCart } from "react-icons/bi";
 import { SlLocationPin } from "react-icons/sl";
 import classes from "./Header.module.css";
+import LowerHeader from "./LowerHeader";
 
 function Header() {
 	return (
@@ -43,10 +44,10 @@ function Header() {
 					<div className={classes.order__container}>
 						<a href="#" className={classes.language}>
 							<img 
-								src="https://canadianaflag.ca/cdn/shop/files/USA.jpg?crop=center&height=1080&v=1713209885&width=1080"
+								src="https://m.media-amazon.com/images/I/71rGj52D1ZL.__AC_SX300_SY300_QL70_FMwebp_.jpg"
 							 	alt="Flag"
 							/>
-							<select>
+							<select className="">
 								<option value="">EN</option>
 							</select>
 						</a>
@@ -66,6 +67,7 @@ function Header() {
 					</div>
 				</div>
 			</section>
+      <LowerHeader/>
 		</>
 	);
 }
