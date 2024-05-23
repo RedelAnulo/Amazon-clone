@@ -2,7 +2,7 @@ export const categoryInfos = [
 	{
 		title: "Electronics",
 		name: "electronics",
-		imgLink: "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+		imgLink: "https://fakestoreapi.com/img/61IBBVJvSDL._AC_SY879_.jpg",
 	},
 
 	{

@@ -5,7 +5,7 @@
 .category {
 	height: 350px;
 	width: 300px;
-	border-color: white;
+	background-color: white;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .category img {

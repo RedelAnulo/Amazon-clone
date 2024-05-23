@@ -88,10 +88,9 @@
 	padding: 10px;
 }
 .language select {
-	border-color: #1a1a1a;
+	background-color: #1a1a1a;
 	border: none;
 	color: white;
-	background-color: black;
 }
 .language img {
 	width: 40%;
